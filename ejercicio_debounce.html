@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrega 2.1 - Jaume Blanco</title>
+</head>
+<body>
+    <h2>Demostración de la función debounce</h2>
+    <p>Escribe abajo una frase cualquiera y podrás observar la diferencia de cómo recibe los datos el servidor.</p> 
+    <p>En el caso del input normal se envía una solicitud al servidor por cada carácter introducido.</p> 
+    <p>En el caso del input filtrado por la función debounce se envía una solicitud al servidor al acabar de escribir y, en este ejemplo, con un delay de 1 segundo.</p>
+    <p>Además, en la consola (F12) podremos observar el número de solicitudes envíadas.</p>
+    <br>
+    <p>Introduce el texto que quieras: <input type = "text"></p>
+    <div>
+        <b>Input normal: </b>
+        <span id = "normal"></span>
+    </div>
+    <br>
+    <div>
+        <b>Input con debounce: </b>
+        <span id = "debounce"></span>
+    </div>
+
+    <script src = "./dist/app/debounceFE.js"></script>
+</body>
+</html>
